@@ -1,0 +1,84 @@
+@import url(./reset.css)
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+.container {
+    padding: 20px;
+}
+
+.header {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 40px 40px;
+    height: 10vh;
+}
+
+.logo {
+    font-size: 2vw;
+}
+
+.nav-links a{
+    font: 1.7vw;
+    color: #000;
+    
+
+}
+
+.main-info h1 {
+    letter-spacing: 2px;
+    font-weight: 700;
+    size: 72px;
+   font-style: bold;
+   color: #FF8A56;
+}
+
+.button-groups >a {
+color: #000;
+}
+
+.portfolio-pic-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    background: url(.jpg);
+    border-radius: 0px;
+}
+
+.portfolio-pic {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+
+.trusted-by-center {
+/* Trusted by */
+position: absolute;
+height: 18px;
+left: 44.78%;
+right: 44.66%;
+top: 77px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 18px;
+/* identical to box height, or 100% */
+
+
+color: #000000;
+}
+
